@@ -1,0 +1,5 @@
+[
+  { "src_ip": "10.0.0.1", "severity": "high",   "rule_id": 5763 },
+  { "src_ip": "10.0.0.2", "severity": "medium", "rule_id": 5501 },
+  { "src_ip": "10.0.0.3", "severity": "high",   "rule_id": 5763 }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "ip": "185.220.101.5",
+    "rule": "SSH brute force attack",
+    "level": 12,
+    "agent": "web-server-01"
+  },
+  {
+    "ip": "185.220.101.5",
+    "rule": "SSH brute force attack",
+    "level": 12,
+    "agent": "web-server-01"
+  },
+  {
+    "ip": "45.33.32.156",
+    "rule": "Port scan detected",
+    "level": 10,
+    "agent": "fw-01"
+  }
+]

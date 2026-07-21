@@ -1,0 +1,9 @@
+{
+  "timestamp": "2024-01-15T08:23:41Z",
+  "src_ip": "192.168.1.100",
+  "rule": {
+    "id": 5763,
+    "description": "SSH brute force attempt",
+    "level": 10
+  }
+}

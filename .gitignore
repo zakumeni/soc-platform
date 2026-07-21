@@ -1,0 +1,11 @@
+# Large/raw capture artifacts — see foundations/05-tshark-jq-pipeline/README.md
+*.pcap
+*.pcapng
+capture.json
+
+# OS/editor cruft
+.DS_Store
+*.swp
+
+# Env/secrets
+.env
