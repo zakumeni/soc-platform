@@ -19,7 +19,7 @@ Every tool here maps to a stage of the eventual pipeline:
 
 | Tool | Later use |
 |---|---|
-| `jq` | Parses and reshapes JSON from Wazuh, TheHive, Cortex, and Shuffle's API responses |
+| `jq` | Parses and reshapes JSON from Wazuh, DFIR-IRIS, Cortex, and Shuffle's API responses |
 | `tshark` | Automated PCAP-to-JSON conversion, later triggered by Shuffle workflows |
 | `Sniffnet` | Quick visual sanity-check of traffic alongside the CLI pipeline |
 

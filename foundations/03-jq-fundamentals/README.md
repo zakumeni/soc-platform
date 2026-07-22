@@ -1,6 +1,6 @@
 # 03 — jq Fundamentals
 
-`jq` is a lightweight, zero-dependency command-line JSON processor. In a modern SOC, almost every tool — Wazuh, TheHive, Shuffle, Cortex, and most SIEM APIs — outputs JSON. `jq` parses, filters, reshapes, and extracts that data directly in the terminal.
+`jq` is a lightweight, zero-dependency command-line JSON processor. In a modern SOC, almost every tool — Wazuh, DFIR-IRIS, Shuffle, Cortex, and most SIEM APIs — outputs JSON. `jq` parses, filters, reshapes, and extracts that data directly in the terminal.
 
 ## Install
 

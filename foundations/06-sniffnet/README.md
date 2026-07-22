@@ -22,4 +22,4 @@ sudo sniffnet
 
 ## Role in the platform
 
-Sniffnet isn't part of the automated pipeline (Wazuh/TheHive/Cortex/Shuffle don't integrate with it) — it's kept in the toolkit as a fast manual verification tool: when an automated alert fires, a quick look at Sniffnet's live dashboard can confirm whether the suspicious traffic is still active before diving into a full `tshark`/`jq` investigation.
+Sniffnet isn't part of the automated pipeline (Wazuh/DFIR-IRIS/Cortex/Shuffle don't integrate with it) — it's kept in the toolkit as a fast manual verification tool: when an automated alert fires, a quick look at Sniffnet's live dashboard can confirm whether the suspicious traffic is still active before diving into a full `tshark`/`jq` investigation.

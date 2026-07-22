@@ -2,7 +2,7 @@
 
 **Status: 🔜 Planned**
 
-Adds Cortex for automated enrichment (IP/domain/hash reputation) and Shuffle for full SOAR workflow automation — tying together every prior module into an end-to-end pipeline: Wazuh alert → Shuffle trigger → `jq`/`tshark` processing → Cortex enrichment → auto-created TheHive case.
+Adds Cortex for automated enrichment (IP/domain/hash reputation) and Shuffle for full SOAR workflow automation — tying together every prior module into an end-to-end pipeline: Wazuh alert → Shuffle trigger → `jq`/`tshark` processing → Cortex enrichment → auto-created DFIR-IRIS case.
 
 Planned sections:
 - Cortex deployment and analyzer configuration

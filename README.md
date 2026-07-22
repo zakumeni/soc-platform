@@ -2,7 +2,7 @@
 
 A self-built Security Operations Center lab, documented module by module — from a clean Ubuntu install to a working threat detection and incident-response pipeline.
 
-This repo tracks a progressive build: hardened base OS → JSON/log tooling → packet analysis → (upcoming) Wazuh SIEM, TheHive case management, Cortex enrichment, and Shuffle SOAR automation.
+This repo tracks a progressive build: hardened base OS → JSON/log tooling → packet analysis → (upcoming) Wazuh SIEM, DFIR-IRIS case management, Cortex enrichment, and Shuffle SOAR automation.
 
 ## Why this exists
 
@@ -22,7 +22,7 @@ Most "I did a cybersecurity course" repos are a folder of screenshots. This one 
 |---|---|---|
 | [Foundations](./foundations/) | Environment hardening, jq, tshark, Sniffnet | ✅ Complete |
 | [SIEM Deployment](./siem-deployment/) | Docker + Wazuh SIEM deployment | 🔜 Planned |
-| [Case Management](./case-management/) | Wazuh rule tuning, TheHive case management | 🔜 Planned |
+| [Case Management](./case-management/) | Wazuh rule tuning, DFIR-IRIS case management | 🔜 Planned |
 | [SOAR Automation](./soar-automation/) | Cortex enrichment + Shuffle SOAR automation | 🔜 Planned |
 
 ## Foundations Summary
@@ -36,4 +36,4 @@ Environment setup, JSON/log analysis with `jq`, and packet capture tooling. Full
 
 ## License
 
-MIT — see individual sections for tool-specific licensing (Wireshark, Wazuh, TheHive, Cortex, and Shuffle each have their own).
+MIT — see individual sections for tool-specific licensing (Wireshark, Wazuh, DFIR-IRIS, Cortex, and Shuffle each have their own).
